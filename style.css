@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://pixabay.com/illustrations/sunrise-space-outer-space-globe-1756274/);
+    background-image: url(./sunrise.jpg);
     background-repeat: no-repeat;
     background-size: 1600px 1000px;
     width: 100vw;
@@ -17,6 +17,7 @@ body {
     display: grid;
     grid-template-columns: 40% 60%;
     width: 100%;
+    display: flex;
   }
 
   main {
@@ -39,6 +40,18 @@ body {
     padding: 20px;
     text-align: center;
     border: 2px solid white;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 
   .has-border {
