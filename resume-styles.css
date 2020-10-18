@@ -3,12 +3,20 @@ body {
   max-width: 100%;
   max-height: 100%;
   display: grid;  
-  grid-template-columns: repeat(2, 2fr) 30% 70%;
-  grid-template-rows: repeat(2, 2fr) 30% 70%;  
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 30% 70%; 
 }
 
 .picture {
   background-color: #006341;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 30px;
+  border: solid;
+  border-width: 3px;
+  border-top-color: transparent;
+  border-left-color: transparent;
 }
 
 .heading {
@@ -16,11 +24,27 @@ body {
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  align-items: center;
+  border: solid;
+  border-width: 3px;
+  border-top-color: transparent;
+  border-right-color: transparent;
 }
 
 .contact {
   background-color: #006341;
   color: white;
+  border: solid;
+  border-width: 3px;
+  border-top-color: black;
+  border-right-color: black;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+}
+
+.info-container {
+  height: auto;
+  margin: 100px;
 }
 
 #profile-pic {
@@ -39,5 +63,3 @@ h1 {
 h2 {
   text-align: center;
 }
-
-
