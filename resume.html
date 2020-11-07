@@ -6,21 +6,21 @@
   <title>Resume</title>
   <link rel="stylesheet" href="./resume-styles.css">
 </head>
+<!-- <header>
+  <nav>
+    <img src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png" class="logo" alt="austin coding academy logo">
+    <a class="has-border" href= "./index.html">Home</a>
+    <a class="has-border" href="./aboutPage.html">About Me</a>
+    <a class="has-border">My Blog</a>
+    <a class="has-border" href="./contact.html">Contact Me</a>
+  </nav>
+</header>   -->
 <body>
-  <header>
-    <nav>
-      <img src="https://cdn.evbuc.com/eventlogos/188084824/acastandardcirclefullname.png" class="logo" alt="austin coding academy logo">
-      <a class="has-border" href= "./index.html">Home</a>
-      <a class="has-border" href="./aboutPage.html">About Me</a>
-      <a class="has-border">My Blog</a>
-      <a class="has-border" href="./contact.html">Contact Me</a>
-    </nav>
- </header>  
   <section class= "picture">
-    <img src= "./Jamie_Benn.jpg" id="profile-pic" height="200px">
+    <img src= "./Jamie_Benn.jpg" class="profile-pic" id="profilePic" height="200px">
   </section>
   <section class="heading">
-    <h1>Jamie Benn</h1>    
+    <h1 id="name">Jamie Benn</h1>    
     <h4>Left Winger - Dallas Stars Captain</h4>
   </section>
   <section class="contact">
@@ -35,7 +35,7 @@
           <li>2500 Victory Ave</li>
           <li>Dallas, TX 75219</li>
           <li><h4>Phone</h4></li>
-          <li>555-555-5555</li>
+          <li id="phone">555-555-5555</li>
           <li><h4>Email</h4></li>
           <li>jamie.benn@dallasstars.com</li>
           <li><h4>Website</h4></li>
@@ -48,9 +48,9 @@
     </article>
   </section>
   <section class="info-container">
-    <article class="experience"></article>
+    <article class="experience">
       <h2>Experience</h2>
-      <p>Affogato normcore viral banjo roof party poutine fanny pack williamsburg food truck tbh schlitz artisan meggings freegan. Pop-up tumeric fixie freegan sriracha mustache seitan, mlkshk taxidermy narwhal echo park. Cardigan etsy readymade pickled next level flexitarian godard.</p>
+      <p>Affogato normcore viral banjo roof party poutine fanny pack williamsburg food truck tbh schlitz artisan meggings freegan. Pop-up tumeric fixie freegan sriracha mustache seitan, mlkshk taxidermy narwhal echo park. Cardigan etsy readymade pickled next level flexitarian godard. Hoodie neutra crucifix banjo pok pok af. Migas activated charcoal skateboard shaman narwhal, austin ethical bespoke banh mi cornhole. Poke messenger bag godard celiac VHS gastropub. Mumblecore hoodie franzen salvia etsy umami intelligentsia. Blue bottle small batch roof party photo booth, green juice venmo dreamcatcher raw denim stumptown franzen. Fixie neutra lomo hella roof party sriracha. Mustache air plant 90's, squid typewriter tumblr paleo. Food truck stumptown quinoa, enamel pin mixtape sartorial pickled.</p>
     <article class="education">
       <h2>Education</h2>
       <p>Bushwick wolf tofu 90's thundercats kogi edison bulb polaroid air plant portland retro. Single-origin coffee copper mug beard mlkshk XOXO jianbing forage keffiyeh DIY gentrify taxidermy keytar cardigan.</p>
@@ -60,5 +60,6 @@
       <p>Hammock cloud bread pour-over leggings twee direct trade lumbersexual adaptogen swag mumblecore austin knausgaard echo park. Freegan post-ironic waistcoat, ramps cliche roof party blog you probably haven't heard of them chia lyft tacos 3 wolf moon.</p>
     </article>
   </section>
+  <script src="resume-interactive.js"></script>
 </body>
 </html>
